@@ -1,6 +1,8 @@
 package Database;
 
-public class Todo {
+import java.io.Serializable;
+
+public class Todo implements Serializable {
     private String task;
     private boolean finished;
 

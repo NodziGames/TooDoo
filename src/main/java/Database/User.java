@@ -1,9 +1,10 @@
 package Database;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class User {
+public class User implements Serializable {
 
     private long id;
     private List<Todo> todos;

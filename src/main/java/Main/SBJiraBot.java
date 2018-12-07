@@ -41,11 +41,11 @@ public class SBJiraBot extends TelegramLongPollingBot {
     }
 
     public String getBotUsername() {
-        return ("");
+        return ("SBJiraBot_bot");
     }
 
     public String getBotToken() {
-        return ("");
+        return ("698269670:AAGC6NyhfnhFoR9Ak__KcDKgBVgS0uqdn9A");
     }
 
 }
